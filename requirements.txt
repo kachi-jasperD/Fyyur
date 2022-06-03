@@ -1,0 +1,14 @@
+babel
+python-dateutil
+flask
+flask-moment
+flask-wtf
+flask_sqlalchemy
+
+#Additional Mandatory installations
+psycopg2 #without this "flask db Migrate" will be unable to run successfully
+Flask-Migrate
+flask_abort
+
+#in forms.py import Length class in wtforms.validators package 
+#in forms.py import URLField class in wtforms package
